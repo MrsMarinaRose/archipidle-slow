@@ -30,7 +30,7 @@ const beginGame = () => {
 
   // Update item counter
   const itemCounter = document.getElementById('checks-sent');
-  itemCounter.innerText = (200 - missingLocations.length).toString();
+  itemCounter.innerText = (100 - missingLocations.length).toString();
 
   // If all checks have already been sent, fill the progress bar and do nothing else
   if (missingLocations.length === 0) {
